@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@kongponents/styles": "^0.2.0",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
@@ -26,20 +27,6 @@
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "@vue/standard"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
   },
   "browserslist": [
     "> 1%",

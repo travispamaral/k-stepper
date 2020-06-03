@@ -1,28 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <KStepper />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import KStepper from '@/components/KStepper'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    KStepper
   }
 }
 </script>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  max-width: 500px;
+  margin: 50px auto 0;
+}
+
+.text-muted {
+  color: var(--tblack-45);
 }
 </style>

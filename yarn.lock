@@ -863,6 +863,11 @@
     cssnano-preset-default "^4.0.0"
     postcss "^7.0.0"
 
+"@kongponents/styles@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@kongponents/styles/-/styles-0.2.0.tgz#a3a1108e8551a05eb53a2b790395aa373fe149d6"
+  integrity sha512-IVMp0Vljzrd5nxpS5p0oeeRSobZNQaOYTTtCckbx1H4ds/jP9FTtauc4zGRbYOxGtT4uhcJjR8VbKJ9c4/IJrw==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
