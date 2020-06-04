@@ -52,7 +52,7 @@ export default {
     },
     content: {
       type: String,
-      default: ''
+      default: 'Some content here'
     }
   }
 }
